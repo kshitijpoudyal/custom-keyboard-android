@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "com.nepalicoders.kcpkeboard"
+    namespace = "com.kay.customkeyboard"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.nepalicoders.kcpkeboard"
-        minSdk = 24
+        applicationId = "com.kay.customkeyboard"
+        minSdk = 21
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -22,8 +22,8 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+	getDefaultProguardFile("proguard-android-optimize.txt"),
+	"proguard-rules.pro"
             )
         }
     }
@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.support.annotations)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
