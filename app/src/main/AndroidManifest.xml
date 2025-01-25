@@ -32,7 +32,7 @@
             </intent-filter>
             <meta-data
                 android:name="android.view.im"
-                android:resource="@xml/method" />
+                android:resource="@xml/keyboard_service_config" />
         </service>
 
     </application>

@@ -10,7 +10,8 @@
         style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:id="@+id/keyboard_container">
 
         <Button
             android:id="@+id/key_q"
@@ -18,6 +19,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/q" />
 
         <Button
@@ -26,6 +29,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/w" />
 
         <Button
@@ -34,6 +39,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/e" />
 
         <Button
@@ -42,6 +49,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/r" />
 
         <Button
@@ -50,6 +59,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/t" />
 
         <Button
@@ -58,6 +69,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/y" />
 
         <Button
@@ -66,6 +79,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/u" />
 
         <Button
@@ -74,6 +89,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/i" />
 
         <Button
@@ -82,6 +99,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/o" />
 
         <Button
@@ -90,6 +109,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/p" />
     </LinearLayout>
 
@@ -106,6 +127,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/button_border"
             android:text="@string/a" />
 
         <Button
@@ -114,6 +137,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/button_border"
             android:text="@string/s" />
 
         <Button
@@ -122,6 +147,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/button_border"
             android:text="@string/d" />
 
         <Button
@@ -130,6 +157,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/button_border"
             android:text="@string/f" />
 
         <Button
@@ -138,6 +167,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/button_border"
             android:text="@string/g" />
 
         <Button
@@ -146,6 +177,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/button_border"
             android:text="@string/h" />
 
         <Button
@@ -154,6 +187,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/button_border"
             android:text="@string/j" />
 
         <Button
@@ -162,6 +197,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/button_border"
             android:text="@string/k" />
 
         <Button
@@ -170,8 +207,11 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/button_border"
             android:text="@string/l" />
     </LinearLayout>
+
 
     <!-- Third row -->
     <LinearLayout
@@ -186,6 +226,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/z" />
 
         <Button
@@ -194,6 +236,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/x" />
 
         <Button
@@ -202,6 +246,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/c" />
 
         <Button
@@ -210,6 +256,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/v" />
 
         <Button
@@ -218,6 +266,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/b" />
 
         <Button
@@ -226,6 +276,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/n" />
 
         <Button
@@ -234,6 +286,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/m" />
     </LinearLayout>
 
@@ -250,6 +304,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/numberLabel" />
 
         <Button
@@ -258,6 +314,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="6"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/space" />
 
         <Button
@@ -266,6 +324,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+            android:background="@drawable/button_border"
+            android:padding="5dp"
             android:text="@string/enter" />
     </LinearLayout>
 </LinearLayout>
